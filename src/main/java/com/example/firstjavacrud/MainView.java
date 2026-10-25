@@ -61,7 +61,7 @@ public class MainView extends VerticalLayout {
         });
 
         editor.setVisible(false);
-        add(new H2("Customers"), new HorizontalLayout(filter, addNew), grid, editor);
+        add(new H2("Customer List"), new HorizontalLayout(filter, addNew), grid, editor);
         listCustomers(null);
     }
 
